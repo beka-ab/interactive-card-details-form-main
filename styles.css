@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg-img {
+  background-image: url(./images/bg-main-mobile.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cards_div {
+  position: relative;
+}
+
+.back-img-div {
+  width: 286px;
+  padding-top: 32px;
+  margin-left: 73px;
+  margin-bottom: 51px;
+  position: relative;
+}
+.absolute-img-div,
+.front_cardinfo {
+  width: 286px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.absolute-img-div {
+  position: absolute;
+  top: 120px;
+  transform: translateX(-19px);
+}
+.front_cardinfo {
+  padding: 0px 20px;
+  position: absolute;
+  transform: translatex(-19px);
+  top: 137px;
+}
+.absoulute_card {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card_num {
+  margin-top: 37px;
+}
+.card_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+}
+.card_logo {
+  height: 30px;
+}
+.info {
+  margin-top: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name_i {
+  margin-top: 9px;
+  padding: 11px 137px 11px 16px;
+  background: #ffffff;
+  border: 1px solid #dfdee0;
+  border-radius: 8px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.card_number_div {
+  margin-top: 20px;
+}
+.data_cvc {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.data_left {
+  width: 72px;
+  padding: 11px 16px 11px 11px;
+  background: #ffffff;
+  border: 1px solid #dfdee0;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.cvc {
+  width: 164px;
+  padding: 11px 82px 11px 16px;
+  background: #ffffff;
+  border: 1px solid #dfdee0;
+  border-radius: 8px;
+  margin-left: 11px;
+  font-size: 18px;
+}
+.bottom_input {
+  margin-top: 9px;
+}
+.cvc_p {
+  margin-left: 23px;
+}
+.bottom_btn {
+  margin-top: 28px;
+  width: 327px;
+  padding: 15px 130px;
+  background: #21092f;
+  border-radius: 8px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  border: 0;
+}
+.card_number {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 2.2px;
+  color: #ffffff;
+}
+.card_cvc {
+  position: absolute;
+  top: 105px;
+  left: 229px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: right;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+}
+.name_span {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ex {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: right;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.name_p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #21092f;
+}
+.exp_data,
+.cvc_p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #21092f;
+}
+
+.inline {
+  display: block;
+}
+.after_confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 91px;
+}
+.none {
+  display: none;
+}
+.inline {
+  display: flex;
+}
+.thank {
+  margin-top: 35px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 3.42222px;
+  color: #21092f;
+}
+.inf_after_confirmation {
+  margin-top: 16px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #8f8694;
+}
+.btn_continue {
+  margin-top: 48px;
+  background: #21092f;
+  border-radius: 8px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  padding: 15px 124px;
+  margin-bottom: 82px;
+  border: 0;
+}
+.cvc {
+  margin-left: 20px;
+  padding: 11px 109px 11px 16px;
+  font-size: 18px;
+  width: 199px;
+}
+.mm {
+  margin-right: 10px;
+  padding: 11px 20px 11px 16px;
+}
+.data,
+.bottom_btn {
+  width: 381px;
+}
+@media (min-width: 1440px) {
+  .desktop_div {
+    display: flex;
+    column-gap: 349px;
+  }
+  .bg-img {
+    height: 100vh;
+  }
+  .cards_div {
+    width: 483px;
+  }
+  .absolute-img-div,
+  .front_cardinfo,
+  .absoulute_card {
+    transform: translate(79px, -275px);
+    width: 447px;
+  }
+
+  .back-img-div {
+    transform: translate(202px, 148px);
+    width: 447px;
+  }
+  .absoulute_card {
+    position: relative;
+    width: 447px;
+  }
+  .card_number {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 3.42222px;
+    color: #ffffff;
+    margin-top: 64px;
+  }
+  .name_span,
+  .ex {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .card_logo {
+    width: 84px;
+    height: 47px;
+  }
+  .card_bottom {
+    padding-top: 25px;
+  }
+  .card_cvc {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    top: 143px;
+    left: 358px;
+  }
+  .cvc {
+    margin-left: 20px;
+    padding: 11px 109px 11px 16px;
+    font-size: 18px;
+    width: 199px;
+  }
+  .mm {
+    margin-right: 10px;
+    padding: 11px 20px 11px 16px;
+  }
+  .info {
+    margin-top: 0;
+  }
+  .data,
+  .bottom_btn {
+    width: 381px;
+  }
+  .after_confirm {
+    justify-content: center;
+  }
+}

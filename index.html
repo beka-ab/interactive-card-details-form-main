@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <div class="desktop_div">
+      <div class="cards_div">
+        <div class="bg-img">
+          <div class="back-img-div">
+            <img src="./images/bg-card-back.png" alt="" />
+            <p class="card_cvc">000</p>
+          </div>
+          <div class="absoulute_card">
+            <div class="absolute-img-div">
+              <img src="./images/bg-card-front.png" alt="" />
+            </div>
+          </div>
+          <div class="absoulute_card">
+            <div class="front_cardinfo">
+              <img class="card_logo" src="./images/card-logo.svg" alt="" />
+              <div class="card_num">
+                <p class="card_number">0000 0000 0000 0000</p>
+                <div class="card_bottom">
+                  <p class="name_span">JANE APPLESEED</p>
+                  <p class="ex">
+                    <span class="month">00</span>/<span class="year">00</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div>
+          <p class="name_p">Cardholder Name</p>
+          <input
+            class="name_i Cardholder"
+            type="text"
+            name=""
+            id=""
+            placeholder="e.g. Jane Appleseed"
+          />
+        </div>
+        <div class="card_number_div">
+          <p class="name_p">Card Number</p>
+          <input
+            class="name_i name_input"
+            type="text"
+            name=""
+            id=""
+            placeholder="e.g. 1234 5678 9123 0000"
+          />
+          <div class="wrong_number">Wrong format, numbers only</div>
+        </div>
+        <div class="data">
+          <div class="data_cvc">
+            <p class="exp_data">Exp. Date (MM/YY)</p>
+            <p class="cvc_p">CVC</p>
+          </div>
+          <div class="bottom_input">
+            <input
+              class="mm data_left"
+              type="text"
+              name=""
+              id=""
+              placeholder="MM"
+            />
+            <input
+              class="yy data_left"
+              type="text"
+              name=""
+              id=""
+              placeholder="YY"
+            />
+            <input
+              class="cvc"
+              type="text"
+              name=""
+              id=""
+              placeholder="e.g. 123"
+            />
+          </div>
+          <button class="bottom_btn">Confirm</button>
+        </div>
+      </div>
+      <div class="after_confirm none">
+        <div>
+          <img src="./images/icon-complete.svg" alt="" />
+        </div>
+        <h1 class="thank">THANK YOU!</h1>
+        <p class="inf_after_confirmation">We’ve added your card details</p>
+        <button class="btn_continue">Continue</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
