@@ -55,7 +55,7 @@
             id=""
             placeholder="e.g. 1234 5678 9123 0000"
           />
-          <div class="wrong_number">Wrong format, numbers only</div>
+          <div class="wrong_number none">Wrong format, numbers only</div>
         </div>
         <div class="data">
           <div class="data_cvc">
@@ -63,27 +63,36 @@
             <p class="cvc_p">CVC</p>
           </div>
           <div class="bottom_input">
-            <input
-              class="mm data_left"
-              type="text"
-              name=""
-              id=""
-              placeholder="MM"
-            />
-            <input
-              class="yy data_left"
-              type="text"
-              name=""
-              id=""
-              placeholder="YY"
-            />
-            <input
-              class="cvc"
-              type="text"
-              name=""
-              id=""
-              placeholder="e.g. 123"
-            />
+            <div class="bottom_input_div">
+              <input
+                class="mm data_left"
+                type="text"
+                name=""
+                id=""
+                placeholder="MM"
+              />
+              <span class="none mmerror"> can't be blank</span>
+            </div>
+            <div class="bottom_input_div">
+              <input
+                class="yy data_left"
+                type="text"
+                name=""
+                id=""
+                placeholder="YY"
+              />
+              <span class="none yyerror"> can't be blank</span>
+            </div>
+            <div class="bottom_input_div">
+              <input
+                class="cvc"
+                type="text"
+                name=""
+                id=""
+                placeholder="e.g. 123"
+              />
+              <span class="none cvcerror"> can't be blank</span>
+            </div>
           </div>
           <button class="bottom_btn">Confirm</button>
         </div>
